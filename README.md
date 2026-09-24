@@ -6,6 +6,8 @@ I wrote it for EM032 Banking at IES, Charles University (November 2025).
 
 > **Hypothetical case study.** The Miami project, its costs, financing and loan terms were made up for an academic exercise. Ferrari N.V. has not announced such a project. The 2022-2024 financial statements are Ferrari's reported figures. This work is not affiliated with or endorsed by Ferrari N.V.
 
+![Cover sheet of the model with key figures, the base-case credit profile and model checks](docs/model_cover.png)
+
 ## Files
 
 | File | Contents |
@@ -38,6 +40,8 @@ Base case, average selling price of €20,000 per m².
 | Break-even price including loan interest | €17,545 per m² |
 
 The 2030 project DSCR is below the 1.20x a bank would usually ask of a stand-alone project. The loan is corporate with full recourse, so the relevant test is group cash flow, which covers the debt service about three times. Leverage stays below 1.0x net debt to EBITDA throughout, and the application recommends approving the loan.
+
+![Credit metrics for Ferrari standalone and with the project, 2022A-2030F](docs/credit_metrics.png)
 
 ## Model
 
