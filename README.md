@@ -2,9 +2,9 @@
 
 A credit application for a €1.1bn term loan to Ferrari N.V., with an integrated Excel model. The loan finances a hypothetical project, the Ferrari Residential Complex Miami, a €1,425m branded residential development. The question is whether Ferrari can take on the loan without weakening its credit profile.
 
-I wrote it for EM032 Banking at IES, Charles University (November 2025).
+Built in 2026. It started as a 2025 course assignment for EM032 Banking at IES, Charles University, which I rebuilt from the ground up. Figures are as of November 2025, with FY2024 as the latest reported year.
 
-> **Hypothetical case study.** The Miami project, its costs, financing and loan terms were made up for an academic exercise. Ferrari N.V. has not announced such a project. The 2022-2024 financial statements are Ferrari's reported figures. This work is not affiliated with or endorsed by Ferrari N.V.
+> **Hypothetical case study.** The Miami project, its costs, financing and loan terms are fictional. Ferrari N.V. has not announced such a project. The 2022-2024 financial statements are Ferrari's reported figures. This work is not affiliated with or endorsed by Ferrari N.V.
 
 ![Cover sheet of the model with key figures, the base-case credit profile and model checks](docs/model_cover.png)
 
@@ -56,4 +56,4 @@ The 2030 project DSCR is below the 1.20x a bank would usually ask of a stand-alo
 - Cash comes from the cash flow statement, so the balance sheet balances without a plug. The Cover sheet checks that both balance sheets balance, that cash stays positive, that the instalment matches Excel's PMT and that the loan is repaid by Q4 2030.
 - Project revenue is recognised on handover (IFRS 15) and development costs are held as inventory until then (IAS 2). Loan interest is expensed as incurred for simplicity. Under IAS 23 it would be capitalised into inventory, with the same total profit.
 
-Matúš Balko, 2025
+Matúš Balko, 2026
